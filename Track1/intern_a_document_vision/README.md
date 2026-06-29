@@ -1,0 +1,1 @@
+# Intern A Document Vision Pipeline\n\nPDF -> Cleaning -> Deskew -> Anonymization

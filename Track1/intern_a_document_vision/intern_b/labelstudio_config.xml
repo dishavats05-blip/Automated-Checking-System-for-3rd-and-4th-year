@@ -1,0 +1,9 @@
+<View>
+  <Image name="image" value="$image" zoom="true" zoomControl="true" rotateControl="true"/>
+  <RectangleLabels name="label" toName="image">
+    <Label value="PROSE_TEXT" background="#555555"/>
+    <Label value="CODE_CANVAS" background="#aaaaaa"/>
+    <Label value="DIAGRAM_REGION" background="#b4dcff"/>
+    <Label value="MATH_DERIVATION" background="#ffdcB4"/>
+  </RectangleLabels>
+</View>

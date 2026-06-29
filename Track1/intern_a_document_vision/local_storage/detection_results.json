@@ -1,0 +1,247 @@
+[
+  {
+    "image": "dummy_001.png",
+    "detections": [
+      {
+        "label": "DIAGRAM_REGION",
+        "bbox": [
+          50,
+          50,
+          750,
+          238
+        ],
+        "crop_path": "local_storage\\extracted_crops\\dummy_001_DIAGRAM_REGION_00.png"
+      },
+      {
+        "label": "DIAGRAM_REGION",
+        "bbox": [
+          50,
+          278,
+          750,
+          440
+        ],
+        "crop_path": "local_storage\\extracted_crops\\dummy_001_DIAGRAM_REGION_01.png"
+      },
+      {
+        "label": "CODE_CANVAS",
+        "bbox": [
+          50,
+          480,
+          750,
+          639
+        ],
+        "crop_path": "local_storage\\extracted_crops\\dummy_001_CODE_CANVAS_02.png"
+      },
+      {
+        "label": "PROSE_TEXT",
+        "bbox": [
+          50,
+          679,
+          750,
+          769
+        ],
+        "crop_path": "local_storage\\extracted_crops\\dummy_001_PROSE_TEXT_03.png"
+      },
+      {
+        "label": "CODE_CANVAS",
+        "bbox": [
+          50,
+          809,
+          750,
+          1036
+        ],
+        "crop_path": "local_storage\\extracted_crops\\dummy_001_CODE_CANVAS_04.png"
+      }
+    ]
+  },
+  {
+    "image": "dummy_002.png",
+    "detections": [
+      {
+        "label": "DIAGRAM_REGION",
+        "bbox": [
+          50,
+          50,
+          750,
+          270
+        ],
+        "crop_path": "local_storage\\extracted_crops\\dummy_002_DIAGRAM_REGION_00.png"
+      },
+      {
+        "label": "DIAGRAM_REGION",
+        "bbox": [
+          50,
+          310,
+          750,
+          466
+        ],
+        "crop_path": "local_storage\\extracted_crops\\dummy_002_DIAGRAM_REGION_01.png"
+      },
+      {
+        "label": "MATH_DERIVATION",
+        "bbox": [
+          50,
+          506,
+          750,
+          598
+        ],
+        "crop_path": "local_storage\\extracted_crops\\dummy_002_MATH_DERIVATION_02.png"
+      }
+    ]
+  },
+  {
+    "image": "dummy_003.png",
+    "detections": [
+      {
+        "label": "DIAGRAM_REGION",
+        "bbox": [
+          50,
+          50,
+          750,
+          249
+        ],
+        "crop_path": "local_storage\\extracted_crops\\dummy_003_DIAGRAM_REGION_00.png"
+      },
+      {
+        "label": "DIAGRAM_REGION",
+        "bbox": [
+          50,
+          289,
+          750,
+          503
+        ],
+        "crop_path": "local_storage\\extracted_crops\\dummy_003_DIAGRAM_REGION_01.png"
+      },
+      {
+        "label": "CODE_CANVAS",
+        "bbox": [
+          50,
+          543,
+          750,
+          731
+        ],
+        "crop_path": "local_storage\\extracted_crops\\dummy_003_CODE_CANVAS_02.png"
+      },
+      {
+        "label": "CODE_CANVAS",
+        "bbox": [
+          50,
+          771,
+          750,
+          976
+        ],
+        "crop_path": "local_storage\\extracted_crops\\dummy_003_CODE_CANVAS_03.png"
+      }
+    ]
+  },
+  {
+    "image": "dummy_004.png",
+    "detections": [
+      {
+        "label": "DIAGRAM_REGION",
+        "bbox": [
+          50,
+          50,
+          750,
+          183
+        ],
+        "crop_path": "local_storage\\extracted_crops\\dummy_004_DIAGRAM_REGION_00.png"
+      },
+      {
+        "label": "CODE_CANVAS",
+        "bbox": [
+          50,
+          223,
+          750,
+          382
+        ],
+        "crop_path": "local_storage\\extracted_crops\\dummy_004_CODE_CANVAS_01.png"
+      },
+      {
+        "label": "DIAGRAM_REGION",
+        "bbox": [
+          50,
+          422,
+          750,
+          623
+        ],
+        "crop_path": "local_storage\\extracted_crops\\dummy_004_DIAGRAM_REGION_02.png"
+      },
+      {
+        "label": "MATH_DERIVATION",
+        "bbox": [
+          50,
+          663,
+          750,
+          786
+        ],
+        "crop_path": "local_storage\\extracted_crops\\dummy_004_MATH_DERIVATION_03.png"
+      },
+      {
+        "label": "PROSE_TEXT",
+        "bbox": [
+          50,
+          826,
+          750,
+          988
+        ],
+        "crop_path": "local_storage\\extracted_crops\\dummy_004_PROSE_TEXT_04.png"
+      }
+    ]
+  },
+  {
+    "image": "dummy_005.png",
+    "detections": [
+      {
+        "label": "MATH_DERIVATION",
+        "bbox": [
+          50,
+          50,
+          750,
+          156
+        ],
+        "crop_path": "local_storage\\extracted_crops\\dummy_005_MATH_DERIVATION_00.png"
+      },
+      {
+        "label": "DIAGRAM_REGION",
+        "bbox": [
+          50,
+          196,
+          750,
+          410
+        ],
+        "crop_path": "local_storage\\extracted_crops\\dummy_005_DIAGRAM_REGION_01.png"
+      },
+      {
+        "label": "CODE_CANVAS",
+        "bbox": [
+          50,
+          450,
+          750,
+          628
+        ],
+        "crop_path": "local_storage\\extracted_crops\\dummy_005_CODE_CANVAS_02.png"
+      },
+      {
+        "label": "MATH_DERIVATION",
+        "bbox": [
+          50,
+          668,
+          750,
+          836
+        ],
+        "crop_path": "local_storage\\extracted_crops\\dummy_005_MATH_DERIVATION_03.png"
+      },
+      {
+        "label": "CODE_CANVAS",
+        "bbox": [
+          50,
+          876,
+          750,
+          1025
+        ],
+        "crop_path": "local_storage\\extracted_crops\\dummy_005_CODE_CANVAS_04.png"
+      }
+    ]
+  }
+]

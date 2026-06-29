@@ -1,0 +1,13 @@
+opencv-python
+numpy
+pdf2image
+scikit-image
+Pillow
+imutils
+torch
+torchvision
+transformers
+datasets
+accelerate
+tesseract
+pytesseract
