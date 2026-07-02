@@ -1,0 +1,27 @@
+<!--
+Intern D - Stream B (Diagram Nodes)
+LabelStudio config for annotating real DIAGRAM_REGION crops with rotated
+bounding boxes around networking icons. RectangleLabels in LabelStudio
+supports an interactive rotation handle, so exported regions already carry
+a "rotation" field alongside x/y/width/height (all in % of image size) -
+exactly what convert_labelstudio_to_obb.py (in this folder) expects.
+
+Usage:
+    1. Create a LabelStudio project, paste this config in as the labeling
+       interface.
+    2. Import images from output/anonymized_images (or wherever your
+       DIAGRAM_REGION crops from Intern B live).
+    3. Annotate each icon with the matching label + rotate the box to hug
+       the hand-drawn symbol.
+    4. Export as JSON, then run convert_labelstudio_to_obb.py to produce
+       YOLOv8-obb label .txt files for train_yolov8_diagram.py.
+-->
+<View>
+  <Image name="image" value="$image" zoom="true" zoomControl="true" rotateControl="true"/>
+  <RectangleLabels name="label" toName="image">
+    <Label value="Router" background="#4C9AFF"/>
+    <Label value="Switch" background="#57D9A3"/>
+    <Label value="Firewall" background="#FF7452"/>
+    <Label value="Server" background="#B380FF"/>
+  </RectangleLabels>
+</View>
