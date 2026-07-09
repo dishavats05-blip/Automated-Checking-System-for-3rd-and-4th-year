@@ -15,7 +15,7 @@ CREATE TABLE IF NOT EXISTS llm_evaluations (
     id SERIAL PRIMARY KEY,
     script_id VARCHAR(100) NOT NULL,
     question_id VARCHAR(50) NOT NULL,
-    course_outcome VARCHAR(20) NOT NULL,
+    course_outcome_code VARCHAR(20) NOT NULL REFERENCES course_outcomes(code),
     answer_type VARCHAR(20) NOT NULL,
     programmatic_score NUMERIC NOT NULL,
     max_score NUMERIC NOT NULL,
