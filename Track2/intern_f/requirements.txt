@@ -1,0 +1,5 @@
+sympy
+transformers
+torch
+Pillow
+numpy
