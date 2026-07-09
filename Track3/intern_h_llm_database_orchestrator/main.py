@@ -1,3 +1,4 @@
+from intern_g_adapter import convert_intern_g_report
 from fastapi import FastAPI
 
 from database import DATABASE_SCHEMA_SQL, initialize_database
@@ -7,8 +8,8 @@ from schemas import (
     EvaluationResponse,
     HumanOverrideRequest,
     HumanOverrideResponse,
+    InternGReportRequest,
 )
-
 
 app = FastAPI(
     title="Track 3 Intern H - LLM and Database Orchestrator",
@@ -42,6 +43,11 @@ def evaluate_question(request: EvaluationRequest) -> EvaluationResponse:
         human_review_required=llm_result["human_review_required"],
         review_reason=llm_result.get("review_reason"),
     )
+
+@app.post("/evaluate/intern-g-report", response_model=EvaluationResponse)
+def evaluate_intern_g_report(request: InternGReportRequest) -> EvaluationResponse:
+    evaluation_request = convert_intern_g_report(request)
+    return evaluate_question(evaluation_request)
 
 
 @app.post("/human-override", response_model=HumanOverrideResponse)

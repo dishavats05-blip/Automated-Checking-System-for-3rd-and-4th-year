@@ -26,6 +26,19 @@ class EvaluationRequest(BaseModel):
     structural_payload: dict[str, Any] = Field(default_factory=dict)
     master_answer: dict[str, Any] = Field(default_factory=dict)
 
+class InternGReportRequest(BaseModel):
+    student_id: str = "masked"
+    script_id: str
+    question_id: str
+    course_outcome: str
+    marks: float = Field(alias="Marks", ge=0)
+    grade: str = Field(alias="Grade")
+    topology_match: bool = Field(alias="Topology Match")
+    student_nodes: int = Field(alias="Student Nodes", ge=0)
+    reference_nodes: int = Field(alias="Reference Nodes", ge=0)
+    student_edges: int = Field(alias="Student Edges", ge=0)
+    reference_edges: int = Field(alias="Reference Edges", ge=0)
+
 
 class EvaluationResponse(BaseModel):
     script_id: str
